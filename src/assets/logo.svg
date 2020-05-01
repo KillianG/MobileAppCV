@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="175" height="66" viewBox="0 0 175 66">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-2 {
+        fill: #707070;
+        font-size: 36px;
+        font-family: Poppins-Bold, Poppins;
+        font-weight: 700;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="1.141" y1="0.5" x2="-0.013" y2="0.552" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#36ee5b"/>
+      <stop offset="1" stop-color="#08983d"/>
+    </linearGradient>
+  </defs>
+  <g id="Groupe_286" data-name="Groupe 286" transform="translate(-72 -108.235)">
+    <rect id="Rectangle_160" data-name="Rectangle 160" class="cls-1" width="34" height="8" rx="4" transform="translate(72 135.235)"/>
+    <path id="Rectangle_163" data-name="Rectangle 163" class="cls-1" d="M0,0H13.5A13.5,13.5,0,0,1,27,13.5v17A13.5,13.5,0,0,1,13.5,44h0A13.5,13.5,0,0,1,0,30.5V0A0,0,0,0,1,0,0Z" transform="translate(203 135.235) rotate(-90)"/>
+    <text id="ToDo" class="cls-2" transform="translate(110 123.235)"><tspan x="0" y="38">ToDo</tspan></text>
+    <rect id="Rectangle_164" data-name="Rectangle 164" class="cls-1" width="34" height="8" rx="4" transform="translate(72 144.235)"/>
+    <rect id="Rectangle_165" data-name="Rectangle 165" class="cls-1" width="34" height="8" rx="4" transform="translate(72 153.235)"/>
+  </g>
+</svg>

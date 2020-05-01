@@ -1,0 +1,39 @@
+<!--
+Killian Gardahaut   1902104 
+##
+-->
+
+<ion-content>
+  <ion-grid>
+    <ion-row class="ion-no-padding ion-justify-content-center">
+      <ion-icon src="/assets/logo.svg" class="logo"></ion-icon>
+    </ion-row>
+    <ion-row class="ion-no-padding ion-justify-content-center">
+      <ion-list class="ion-no-padding">
+        <ion-input placeholder="email" class="td-input" [(ngModel)]="this.email"></ion-input>
+        <ion-input placeholder="password" class="td-input" id="password" type="password" [(ngModel)]="this.password"></ion-input>
+      </ion-list>
+    </ion-row>
+    <ion-row class="ion-no-padding ion-justify-content-center">
+      <ion-button class="td-button" shape="round" (click)="onSubmit()">Login</ion-button>
+    </ion-row>
+    <ion-row class="ion-no-padding ion-justify-content-center">
+      <ion-icon src="/assets/divided.svg" class="divided"></ion-icon>
+    </ion-row>
+    <ion-row class="ion-no-padding ion-justify-content-center">
+      <ion-button class="td-button" shape="round" [routerLink]="['/register']" routerDirection="forward">Register</ion-button>
+    </ion-row>
+  </ion-grid>
+  <div class="angle-button">
+    <div class="centered" id="no-wifi-button">
+      <ion-grid class="ion-no-padding">
+        <ion-row class="ion-no-padding ion-justify-content-center">
+          <ion-icon src="/assets/no-wifi.svg" class="no-wifi"></ion-icon>
+        </ion-row>
+        <ion-row class="ion-no-padding ion-justify-content-center">
+          <div class="text-min">offline mode</div>
+        </ion-row>
+      </ion-grid>
+    </div>
+  </div>
+</ion-content>

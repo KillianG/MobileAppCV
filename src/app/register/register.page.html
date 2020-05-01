@@ -1,0 +1,27 @@
+<!--
+Killian Gardahaut   1902104 
+##
+-->
+
+<ion-content>
+  <ion-grid>
+    <ion-row class="ion-no-padding">
+      <ion-button icon-only class="td-button-return" (click)="goBack()">
+      <ion-icon name="arrow-back-outline"></ion-icon>
+    </ion-button>
+    </ion-row>
+    <ion-row class="ion-no-padding ion-justify-content-center">
+      <ion-icon src="/assets/logo.svg" class="logo"></ion-icon>
+    </ion-row>
+    <ion-row class="ion-no-padding ion-justify-content-center">
+      <ion-list class="ion-no-padding">
+        <ion-input placeholder="email" class="td-input" [(ngModel)]="this.email"></ion-input>
+        <ion-input placeholder="password" class="td-input space-input" type="password" [(ngModel)]="this.password"></ion-input>
+        <ion-input placeholder="confirm password" class="td-input space-input" type="password"></ion-input>
+      </ion-list>
+    </ion-row>
+    <ion-row class="ion-no-padding ion-justify-content-center">
+      <ion-button class="td-button" shape="round" id="confirm" (click)="onSubmit()">Confirm</ion-button>
+    </ion-row>
+  </ion-grid>
+</ion-content>

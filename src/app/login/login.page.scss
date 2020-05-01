@@ -1,0 +1,52 @@
+/*
+Killian Gardahaut   1902104 
+*/
+
+.logo {
+  margin-top: 88px;
+  margin-bottom: 88px;
+  width: 175px;
+  height: 70px;
+}
+
+.divided {
+  height: 14px;
+  width: 113px;
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+
+#password {
+  margin-top: 13px;
+  margin-bottom: 58px;
+}
+
+.angle-button {
+  position: fixed;
+  background: transparent linear-gradient(132deg, #36ee5b 0%, #0b9c3e 98%, #0a9b3e 100%) 0% 0% no-repeat padding-box;
+  height: 147px;
+  width: 147px;
+  border-radius: 100%;
+  top: 88%;
+  left: 77%;
+}
+
+.no-wifi {
+  width: 17.12px;
+  height: 17.12px;
+}
+
+.text-min {
+  text-align: center;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 6px;
+  letter-spacing: 0px;
+  color: #0a9b3e;
+}
+
+#no-wifi-button {
+    position: relative;
+    top: 30px;
+    right: 22px;
+}
